@@ -1,0 +1,26 @@
+print('Vamos descobrir a reta perpendicular a sua!')
+
+coeficiente_a = float(input('Digite o coeficiente angular da funcao em numero decimal: '))
+
+coeficiente_a_perp = -1/(coeficiente_a)
+
+print("O coeficiente perpendicular e igual a: ")
+print(coeficiente_a_perp)
+
+print('Agora vamos descobrir o coeficiente linear!')
+
+x_perp = float(input('Digite a ABSCISSA de um ponto da reta perpendicular: '))
+        
+               
+y_perp = float(input('Digite a ORDENADA desse mesmo ponto: '))
+        
+
+coeficiente_lin = y_perp/(coeficiente_a_perp * x_perp)
+
+print("O coeficiente linear e igual a: ")
+print(coeficiente_lin)
+
+
+
+
+print("A formula da reta perpendicular e: y = ",coeficiente_a_perp,"*","x","+","(",coeficiente_lin,")")
