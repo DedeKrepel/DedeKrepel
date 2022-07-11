@@ -15,7 +15,7 @@ x_perp = float(input('Digite a ABSCISSA de um ponto da reta perpendicular: '))
 y_perp = float(input('Digite a ORDENADA desse mesmo ponto: '))
         
 
-coeficiente_lin = y_perp/(coeficiente_a_perp * x_perp)
+coeficiente_lin = y_perp - (coeficiente_a_perp * x_perp)
 
 print("O coeficiente linear e igual a: ")
 print(coeficiente_lin)
